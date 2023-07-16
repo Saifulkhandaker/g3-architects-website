@@ -15,6 +15,11 @@ font-family: 'Work Sans', sans-serif;
     border: 0;
     cursor: pointer;
 }
+.section-title{
+    color:#131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
 .text-description{
     color:#727272;
     line-height: 1.6rem;
@@ -29,11 +34,10 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.nav-title{
+.section-title{
     color:#131313;
     font-size: 2.8rem;
     font-weight: 700;
-
 }
 nav > ul{
     display: flex;
@@ -97,6 +101,39 @@ main{
 .img{
     width: 16rem;
 }
+/* facts section */
+.facts-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding:30px;
+}
+.facts-card-container .card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.facts-card-container .card-stats{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.facts{
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+
+
+
+
+
 
 /* responsive media query */
 /* Mobile device */
@@ -106,10 +143,9 @@ main{
     }
     nav{
         flex-direction: column;
-        /* justify-content: center;  */
     }
-    .nab-title{
-        font-size: 1rem;
+    .section-title{
+        font-size: 2rem;
     }
     .banner-content{
         text-align: center;
@@ -137,6 +173,15 @@ main{
         margin-bottom: 2rem;
         margin-top: -3rem;
     }
+    .facts-card-container{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: -10px;
+    }
+    .facts{
+        text-align: center;
+        margin-right: 70px;
+    }
 }
 /* tablet and medium devices */
 @media screen and (min-width:576px) and (max-width:960px) {
@@ -147,7 +192,7 @@ main{
         text-align: center;
         margin: 0;
     }
-    .nav-title{
+    .section-title{
         font-size: 3rem;
         font-weight: 700;
     }
@@ -163,6 +208,10 @@ main{
     }
     .img{
         width: 20rem;
+    }
+    .facts-card-container{
+        gap: 10px;
+        margin-right: 40px;
     }
 }
 
