@@ -112,7 +112,8 @@ main{
     padding-left: 20px;
 }
 .features-img img{
-    height: 90%;
+    margin-top: 180px;
+    height: 70%;
     margin-left: 80px;
 }
 .features-content .card{
@@ -244,13 +245,14 @@ main{
     }
     .features-img img{
         width: 100%;
+        margin-top: -80px;
         margin-left: 0;
     }
     .ten-years-badge{
         position: static;
         width: 200px;
         padding: 10px;
-        margin-left:60px;
+        margin-left:65px;
     }
     .ten-years-badge h2{
         font-size: 3rem;
@@ -305,6 +307,9 @@ main{
     .features{
         flex-direction: column;
         margin-top: 100px;
+    }
+    .features-img img{
+        margin-top: -80px;
     }
     .facts-card-container{
         gap: 10px;
