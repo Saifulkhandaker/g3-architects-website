@@ -139,12 +139,6 @@ main{
 .ten-years-badge p{
     font-size: 1.5rem;
 }
-
-
-
-
-
-
 /* facts section */
 .facts-card-container{
     display: flex;
@@ -185,12 +179,23 @@ main{
 .sponsors-icon-container img{
     width: 165px;
 }
-
-
-
-
-
-
+/* footer-section */
+.footer-section{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer-section p{
+    color:#424242;
+    font-size: 20px;
+    font-weight: 300;
+}
 
 /* responsive media query */
 /* Mobile device */
@@ -245,7 +250,7 @@ main{
         position: static;
         width: 200px;
         padding: 10px;
-        margin-left:70px;
+        margin-left:60px;
     }
     .ten-years-badge h2{
         font-size: 3rem;
@@ -264,7 +269,13 @@ main{
         align-items: center;
         gap: 30px;
     }
+    .footer-section p{
+        color:#424242;
+        font-size: 10px;
+        font-weight: 100;
+    }
 }
+
 /* tablet and medium devices */
 @media screen and (min-width:576px) and (max-width:960px) {
     header{
